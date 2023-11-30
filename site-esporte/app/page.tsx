@@ -4,7 +4,28 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main>
-      pagina principal
+      <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+        <div className="p-8 md:p-12 lg:px-16 lg:py-24">
+          <div
+            className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
+          >
+            <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+              Gabigol bola de ouro?
+            </h2>
+
+            <p className="hidden text-gray-500 md:mt-4 md:block">
+              Gabigol é o favorito a vencer a bola de ouro, com 999 gols na temporada!
+            </p>
+          </div>
+        </div>
+
+        <Image
+          alt="Gabigol"
+          src="/gabi.jpg"
+          className="h-56 w-full object-cover sm:h-full"
+          fill
+        />
+      </section>
     </main>
   )
 }
