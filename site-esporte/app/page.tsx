@@ -6,8 +6,8 @@ export default function Home() {
     <main className="flex flex-col gap-4 max-w-4xl mx-auto mt-4">
       <section>
 
-      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">As últimas notícias do <span className="text-blue-600 dark:text-green-500">futebol</span></h1>
-      <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Confira as últimas novidades do futebol mundial!</p>
+        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">As últimas notícias do <span className="text-blue-600 dark:text-green-500">futebol</span></h1>
+        <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Confira as últimas novidades do futebol mundial!</p>
 
       </section>
 
@@ -50,13 +50,22 @@ export default function Home() {
           </div>
         </div>
 
-        <Image
-          alt="Cano"
-          src="/cano.jpg"
-          className="h-56 w-full object-cover sm:h-full"
-          height={600}
-          width={600}
-        />
+        <div>
+          <Image
+            alt="Cano"
+            src="/cano.jpg"
+            className="h-56 w-full object-cover sm:h-full"
+            height={600}
+            width={300}
+          />
+          <Image
+            alt="Cano"
+            src="/german.webp"
+            className="h-56 w-full object-cover sm:h-full"
+            height={600}
+            width={300}
+          />
+        </div>
       </section>
 
       <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 hover:bg-gray-100">
