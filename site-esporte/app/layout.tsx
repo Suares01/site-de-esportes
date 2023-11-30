@@ -49,11 +49,11 @@ export default function RootLayout({
         {children}
         <footer className="bg-gray-100">
           <div
-            className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24"
+            className="relative mx-auto text-center max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24"
           >
-            <div className="lg:flex lg:items-end lg:justify-between">
+            <div>
               <div>
-                <div className="flex justify-center text-teal-600 lg:justify-start">
+                <div className="flex justify-center text-teal-600">
                   <Image
                     src="/logo.jpeg"
                     alt="Logo"
@@ -63,7 +63,7 @@ export default function RootLayout({
                 </div>
 
                 <p
-                  className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left"
+                  className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500"
                 >
                   Line FUT. O melhor site se notícias da atualidade.
                 </p>
