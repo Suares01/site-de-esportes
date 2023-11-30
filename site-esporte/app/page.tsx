@@ -5,9 +5,10 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-4 max-w-4xl mx-auto">
       <section>
-        <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
-          As últimas notícias futebol
-        </h2>
+
+      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">As últimas notícias do <span className="text-blue-600 dark:text-blue-500">futebol</span></h1>
+      <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Confira as últimas novidades do futebol mundial!</p>
+
       </section>
 
       <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
