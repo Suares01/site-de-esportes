@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-4 max-w-4xl mx-auto">
+    <main className="flex flex-col gap-4 max-w-4xl mx-auto mt-4">
       <section>
 
       <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">As últimas notícias do <span className="text-blue-600 dark:text-blue-500">futebol</span></h1>
@@ -11,7 +11,7 @@ export default function Home() {
 
       </section>
 
-      <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+      <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 hover:bg-gray-100">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div
             className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
@@ -35,7 +35,7 @@ export default function Home() {
         />
       </section>
 
-      <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+      <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 hover:bg-gray-100">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div
             className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
@@ -59,7 +59,7 @@ export default function Home() {
         />
       </section>
 
-      <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+      <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 hover:bg-gray-100">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div
             className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
