@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Image from 'next/image'
 import './globals.css'
 import Link from 'next/link'
 
@@ -24,6 +25,12 @@ export default function RootLayout({
           >
             <Link className="block text-teal-600" href="/">
               <span className="sr-only">Home</span>
+              <Image
+                src="/logo.jpeg"
+                alt="Logo"
+                height={32}
+                width={32}
+              />
               <svg
                 className="h-8"
                 viewBox="0 0 28 24"
@@ -40,12 +47,6 @@ export default function RootLayout({
             <div className="flex flex-1 items-center justify-end md:justify-between">
               <nav aria-label="Global" className="hidden md:block">
                 <ul className="flex items-center gap-6 text-sm">
-                  <li>
-                    <Link className="text-gray-500 transition hover:text-gray-500/75" href="/noticias">
-                      Notícias
-                    </Link>
-                  </li>
-
                   <li>
                     <Link className="text-gray-500 transition hover:text-gray-500/75" href="/jogos">
                       Jogos
