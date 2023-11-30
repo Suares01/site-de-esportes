@@ -41,7 +41,7 @@ export default function Home() {
             className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
           >
             <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
-              Parente do jogador German Cano
+              Parente do jogador German Cano em estado grave
             </h2>
 
             <p className="hidden text-gray-500 md:mt-4 md:block">
