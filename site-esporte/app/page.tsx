@@ -50,22 +50,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
-          <Image
-            alt="Cano"
-            src="/cano.jpg"
-            className="h-56 w-full object-cover sm:h-full"
-            height={600}
-            width={300}
-          />
-          <Image
-            alt="Cano"
-            src="/german.webp"
-            className="h-56 w-full object-cover sm:h-full"
-            height={600}
-            width={300}
-          />
-        </div>
+        <Image
+          alt="Cano"
+          src="/german.webp"
+          className="h-56 w-full object-cover sm:h-full"
+          height={600}
+          width={600}
+        />
       </section>
 
       <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 hover:bg-gray-100">

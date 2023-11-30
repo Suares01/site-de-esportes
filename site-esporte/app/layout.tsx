@@ -47,6 +47,34 @@ export default function RootLayout({
           </div>
         </header>
         {children}
+        <footer className="bg-gray-100">
+          <div
+            className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24"
+          >
+            <div className="lg:flex lg:items-end lg:justify-between">
+              <div>
+                <div className="flex justify-center text-teal-600 lg:justify-start">
+                  <Image
+                    src="/logo.jpeg"
+                    alt="Logo"
+                    height={64}
+                    width={64}
+                  />
+                </div>
+
+                <p
+                  className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left"
+                >
+                  Line FUT. O melhor site se notícias da atualidade.
+                </p>
+              </div>
+            </div>
+
+            <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">
+              Copyright &copy; 2023. All rights reserved.
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   )
