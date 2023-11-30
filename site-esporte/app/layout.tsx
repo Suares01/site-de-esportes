@@ -70,7 +70,7 @@ export default function RootLayout({
               </div>
             </div>
 
-            <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">
+            <p className="mt-12 text-center text-sm text-gray-500">
               Copyright &copy; 2023. All rights reserved.
             </p>
           </div>
