@@ -4,6 +4,12 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="flex flex-col gap-4 max-w-4xl mx-auto">
+      <section>
+        <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+          As últimas notícias futebol
+        </h2>
+      </section>
+
       <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div
