@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-col gap-4 max-w-4xl mx-auto">
       <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div
