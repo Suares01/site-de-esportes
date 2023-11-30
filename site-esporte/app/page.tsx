@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-4 max-w-4xl mx-auto mt-4">
+    <main className="flex flex-col gap-4 max-w-4xl mx-auto mt-4 mb-4">
       <section>
 
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">As últimas notícias do <span className="text-blue-600 dark:text-green-500">futebol</span></h1>
