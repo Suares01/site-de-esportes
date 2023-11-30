@@ -28,8 +28,8 @@ export default function RootLayout({
               <Image
                 src="/logo.jpeg"
                 alt="Logo"
-                height={32}
-                width={32}
+                height={128}
+                width={128}
               />
             </Link>
 
