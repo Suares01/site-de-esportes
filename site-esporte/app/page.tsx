@@ -23,7 +23,8 @@ export default function Home() {
           alt="Gabigol"
           src="/gabi.jpg"
           className="h-56 w-full object-cover sm:h-full"
-          fill
+          height={600}
+          width={600}
         />
       </section>
     </main>
